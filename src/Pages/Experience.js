@@ -12,52 +12,61 @@ function Experience() {
     <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement
             className='vertical-timeline-element--education'
-            date="2010-2014"
-            iconStyle={{ background: "#3e497a", color:"#fff"}}
+            date="2021-2023"
+            iconStyle={{ background: "#0d8d18", color:"#fff"}}
             icon={<SchoolIcon/>}
             >
             <h3 className='vertical-timeline-element-title'>
-                My Random High School, Random place , Random state</h3>
-                <p>High School Diplome</p>
+            MASTER INFORMATIQUE (GIL)</h3>
+                <p>Université de Rouen Normandie, France</p>
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
             className='vertical-timeline-element--education'
-            date="2010-2014"
-            iconStyle={{ background: "#3e497a", color:"#fff"}}
+            date="2017-2021"
+            iconStyle={{ background: "#0d8d18", color:"#fff"}}
             icon={<SchoolIcon/>}
             >
             <h3 className='vertical-timeline-element-title'>
-                My Random High School, Random place , Random state</h3>
-                <p>High School Diplome</p>
+            MASTER INFORMATIQUE (SI)</h3>
+                <p>Université Mouloud Mammeri Tizi Ouzou, Algérie</p>
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
             className='vertical-timeline-element--education'
-            date="2010-2014"
-            iconStyle={{ background: "#e9d35b", color:"#fff"}}
+            date="Novembre 2019 - Janvier 2020"
+            iconStyle={{ background: "#3e497a", color:"#fff"}}
             icon={<WorkIcon/>}
             >
             <h3 className='vertical-timeline-element-title'>
-                My Random High School, Random place , Random state</h3>
-            <h4 className='vertical-timeline-element-subtitle'>
-                algérie
-            </h4>
-            <p>High School Diplome</p>
+            Développeur web</h3>
+                <p>études et réalisation d'une application de gestion des salaires des employés a l'entreprise ENIEM, Algérie </p>
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
             className='vertical-timeline-element--education'
-            date="2010-2014"
-            iconStyle={{ background: "#3e497a", color:"#fff"}}
+            date="2016-2017"
+            iconStyle={{ background: "#0d8d18", color:"#fff"}}
             icon={<SchoolIcon/>}
             >
             <h3 className='vertical-timeline-element-title'>
-                My Random High School, Random place , Random state</h3>
-                <p>High School Diplome</p>
+            Licence 1 Architecture</h3>
+            <p>Université Mouloud Mammeri Tizi Ouzou, Algérie</p>
+        </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+            className='vertical-timeline-element--education'
+            date="2015-2016"
+            iconStyle={{ background: "#0d8d18", color:"#fff"}}
+            icon={<SchoolIcon/>}
+            >
+            <h3 className='vertical-timeline-element-title'>
+            Baccalauréat</h3>
+                <p>Série techniques mathématiques, Algérie </p>
         </VerticalTimelineElement>
     </VerticalTimeline>
     </div>

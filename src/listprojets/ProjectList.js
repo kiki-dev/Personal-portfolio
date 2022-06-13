@@ -1,17 +1,18 @@
-import proj1 from "../images/proj1.png";
+import proj1 from "../images/projet1.png";
+import spring from "../images/spring.png";
 export const ProjectList =[
 {
-    name: "Mon premier projet",
+    name: "Personal Portfolio",
     image: proj1,
-    skills: "React,nodejs",
+    skills: "React, css, html, material UI",
 } ,
 {
-    name: "Ecommerce Website",
-    image: proj1,
-    skills: "React,Node.js,MongoDB",
+    name: "CRUD Application",
+    image: spring,
+    skills: "React, Spring boot, material UI, MySql",
 },
 {
-    name: "Spotify Clone",
+    name: "Systéme de fichier",
     image: proj1,
     skills: "React,Node.js,MongoDB,SpotifyAPI",
 },
