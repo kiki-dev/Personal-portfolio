@@ -5,6 +5,7 @@ import GitHubIcon  from '@material-ui/icons/GitHub'
 import  PictureAsPdf  from '@material-ui/icons/PictureAsPdf'
 import "../styles/Home.css";
 import cv_i from "../pdf/cv_i.pdf";
+import gitlab from "../images/gitlab.png"
 import Logo from "../images/mt.png";
 import python from "../images/python.png";
 import spring from "../images/spring.png";
@@ -34,12 +35,13 @@ function Home() {
                <a href='https://github.com/kiki-dev'><GitHubIcon></GitHubIcon></a>
                <a href='#'><LinkedInIcon></LinkedInIcon></a>
                <a href='#'><EmailIcon></EmailIcon></a>
+               <a href="https://gitlab-dpt-info-sciences.univ-rouen.fr/m1info/gest-notes"><img src={gitlab} /></a>
                
             </div>      
 
              <div className='cv'>
             <p>Download CV</p>
-            <a href="cv_i.pdf" download > <PictureAsPdf></PictureAsPdf> </a>
+            <a href={cv_i} download > <PictureAsPdf></PictureAsPdf> </a>
             </div>
 
         </div>

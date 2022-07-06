@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-     <a href="https://github.com/kiki-dev"><GitHubIcon /></a>
+     <a href="https://github.com/kiki-dev?tab=repositories"><GitHubIcon /></a>
     </div>
   );
 }
